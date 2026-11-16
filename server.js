@@ -332,5 +332,6 @@ if (isDirectRun) {
   });
 }
 
+export default app;
 export { app, server };
 
