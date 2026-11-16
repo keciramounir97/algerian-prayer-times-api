@@ -19,6 +19,7 @@ Chaque fichier du projet dispose d'une documentation dédiée expliquant son rô
 | `utils/prayers.js` | [docs/utils-prayers.md](utils-prayers.md) | Calcul des 5 prières, règle de repli du 1/7ᵉ, calendrier mensuel et prochaine prière |
 | `package.json` | [docs/package-json.md](package-json.md) | Manifeste npm, dépendances, configuration ESM et scripts d'exécution |
 | `test.js` | [docs/test.md](test.md) | Suite de 25 tests unitaires et d'intégration HTTP |
+| `docs/vercel.md` | [docs/vercel.md](vercel.md) | Déploiement serverless sur Vercel, alias de domaine et commandes curl |
 | `docs/change1.md` | [docs/change1.md](change1.md) | Rapport de débogage et résolution des 5 bugs critiques |
 | `docs/change2.md` | [docs/change2.md](change2.md) | Rapport des nouvelles fonctionnalités et améliorations architecturales |
 

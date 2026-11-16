@@ -1,12 +1,32 @@
 # 🕌 Algerian Prayer Times API
 
 [![Node.js CI](https://img.shields.io/badge/Node.js-%3E%3D18-green.svg)](https://nodejs.org/)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Method: Algeria](https://img.shields.io/badge/Method-18%C2%B0%20%2F%2017%C2%B0%20(Algeria)-emerald.svg)](#)
+[![Live API](https://img.shields.io/badge/Live_API-algerian--prayer--times.vercel.app-blueviolet.svg)](https://algerian-prayer-times.vercel.app)
 
 API REST rapide et autonome pour le calcul officiel des horaires de prière en Algérie (selon les directives du **Ministère des Affaires Religieuses et des Wakfs**).
 
 Développée avec **Node.js (ESM)** et **Express**, elle n'utilise aucune dépendance externe ou API tierce pour le calcul : toutes les coordonnées solaires sont déterminées localement à l'aide des algorithmes astronomiques de haute précision de **Jean Meeus**.
+
+---
+
+## 🌐 API en Ligne (Prête à l'Emploi)
+
+L'API est déployée en production sur Vercel :
+> **URL :** `https://algerian-prayer-times.vercel.app`
+
+### Exemples d'appels `curl` rapides :
+```bash
+# Horaires du jour et prochaine prière pour Alger (16)
+curl -s https://algerian-prayer-times.vercel.app/api/today/16
+
+# Compte à rebours direct vers la prochaine prière pour Oran (31)
+curl -s https://algerian-prayer-times.vercel.app/api/next/31
+
+# Calendrier du mois pour Constantine (25)
+curl -s "https://algerian-prayer-times.vercel.app/api/prayer-times/25?month=11&year=2026"
+```
 
 ---
 
