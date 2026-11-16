@@ -6,7 +6,7 @@ Ce document décrit la configuration mise en place pour déployer l'application 
 
 ## 1. URL de Production
 
-- **URL principale (Production)** : [`https://backend-beta-rust-qwadrezn0i.vercel.app`](https://backend-beta-rust-qwadrezn0i.vercel.app)
+- **URL principale (Production)** : [`https://algerian-prayer-times.vercel.app`](https://algerian-prayer-times.vercel.app)
 - **Hébergeur** : Vercel (Région CDG1 / Paris & IAD1 / Washington)
 - **Environnement d'exécution** : Node.js (ESM)
 
@@ -51,17 +51,17 @@ Toutes ces commandes sont prêtes à être exécutées dans votre terminal **Git
 
 ```bash
 # 1. Accueil & documentation
-curl -s https://backend-beta-rust-qwadrezn0i.vercel.app/
+curl -s https://algerian-prayer-times.vercel.app/
 
 # 2. Statut & Healthcheck
-curl -s https://backend-beta-rust-qwadrezn0i.vercel.app/api/health
+curl -s https://algerian-prayer-times.vercel.app/api/health
 
 # 3. Horaires du jour pour Alger (16)
-curl -s https://backend-beta-rust-qwadrezn0i.vercel.app/api/today/16
+curl -s https://algerian-prayer-times.vercel.app/api/today/16
 
 # 4. Prochaine prière et compte à rebours pour Oran (31)
-curl -s https://backend-beta-rust-qwadrezn0i.vercel.app/api/next/31
+curl -s https://algerian-prayer-times.vercel.app/api/next/31
 
 # 5. Calendrier complet du mois pour Constantine (25)
-curl -s "https://backend-beta-rust-qwadrezn0i.vercel.app/api/prayer-times/25?month=11&year=2026"
+curl -s "https://algerian-prayer-times.vercel.app/api/prayer-times/25?month=11&year=2026"
 ```
